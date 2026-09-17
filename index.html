@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reanty. — Find the Best Real Estate</title>
+  <meta name="description"
+    content="Reanty is a premium real estate platform helping you find, rent, and buy the perfect home. Explore commercial properties, featured listings, and more.">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+     TOPBAR — Utility Header
+     ═══════════════════════════════════════════════════════════ -->
+  <aside class="topbar" aria-label="Utility header">
+    <div class="container">
+      <!-- Contact Details -->
+      <div class="topbar-contact">
+        <a href="mailto:Info@webmail.com" aria-label="Email us">
+          <!-- Email Icon -->
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0017.25 4.5h-10.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>Info@webmail.com</span>
+        </a>
+        <div>
+          <!-- Location Icon -->
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>547 ns tower St. anglo City, USA</span>
+        </div>
+      </div>
+      <!-- Social Icons -->
+      <div class="topbar-social">
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.688 5H18V0h-3.808C10.595 0 9 1.582 9 4.615V8z" />
+          </svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+          </svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+          </svg>
+        </a>
+        <a href="#" aria-label="YouTube">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+          </svg>
+        </a>
+        <a href="#" aria-label="Pinterest">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.332 1.365c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ═══════════════════════════════════════════════════════════
+     MAIN HEADER — Site Navigation
+     ═══════════════════════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <!-- Brand Logo -->
+      <a href="#" class="site-logo" aria-label="Reanty homepage">
+        <div class="logo-wrap">
+          <svg class="logo-arc" fill="none" viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M78 22 A 38 38 0 1 0 88 56" stroke="#FF5738" stroke-linecap="round" stroke-width="9" />
+          </svg>
+          <span class="logo-text">Reanty<span>.</span></span>
+        </div>
+      </a>
+
+      <!-- Primary Nav (desktop) -->
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Feature</a>
+        <a href="#">Market</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <!-- Auth Actions (desktop) -->
+      <div class="header-actions">
+        <a href="#" class="btn-login">Log In</a>
+        <a href="#" class="btn-primary">Sign Up</a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false"
+        aria-controls="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Feature</a>
+      <a href="#">Market</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#">Log In</a>
+      <a href="#" style="color:#FF5738;font-weight:700;">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════════
+     HERO — Full-bleed background image
+     ═══════════════════════════════════════════════════════════ -->
+  <main>
+    <!-- ═══════════════════════════════════════════════════════════
+       HERO — Full layout with headline, CTA, floating card
+       ═══════════════════════════════════════════════════════════ -->
+    <section class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-inner container">
+
+        <!-- Left Column: Text Content -->
+        <div class="hero-left">
+          <div class="hero-heading-wrap">
+            <h1 class="hero-heading" id="hero-title">
+              Find the best Real<br>
+              Estate on your<br>
+              country .
+            </h1>
+
+            <!-- Decorative curved arrow pointing right -->
+            <div class="hero-arrow-deco" aria-hidden="true">
+              <svg width="190" height="95" viewBox="0 0 190 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M 8 10 C 12 45, 32 82, 75 82 C 105 82, 118 52, 100 32 C 80 12, 54 36, 68 64 C 82 88, 122 82, 168 64"
+                  stroke="#FF5738" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                <path d="M 152 54 L 174 62 L 156 74 Z" fill="#FF5738" />
+              </svg>
+            </div>
+          </div>
+
+          <p class="hero-sub">
+            With over 1 million homes for sale available on the<br>
+            website, Renting can match you with a house.
+          </p>
+
+          <a href="#" class="hero-cta" id="hero-cta-btn">
+            <span>Start membership</span>
+            <svg class="hero-cta-arrow" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
+              aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+
+          <!-- House Tabs + Pagination row -->
+          <div class="hero-tabs-row" aria-label="Property selector">
+            <div class="house-tabs" aria-hidden="true">
+              <div class="house-tab-1">HOUSE 1</div>
+              <div class="house-tab-2">HOUSE 2</div>
+              <div class="house-tab-3">HOUSE 3</div>
+            </div>
+            <div class="pagination-dots" aria-label="Page 1 of 3">
+              <span class="pagination-line" aria-hidden="true"></span>
+              <span class="pagination-track" aria-hidden="true"></span>
+              <span class="active">1</span>
+              <span class="inactive">2</span>
+              <span class="inactive">3</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Image + Floating Card + How-it-works -->
+        <div class="hero-right">
+          <!-- Main image placeholder -->
+          <div class="hero-img-block" role="img" aria-label="Real estate property photo">
+            <!-- Floating Revenue Card -->
+            <div class="hero-float-card">
+              <div class="hero-float-icon" aria-hidden="true">
+                <svg width="44" height="42" viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Bar 1 (short) -->
+                  <path d="M 6 36 L 6 25 L 4 25 L 8.5 19 L 13 25 L 11 25 L 11 36 Z" fill="#FF5738" />
+                  <!-- Bar 2 (mid) -->
+                  <path d="M 18 36 L 18 19 L 16 19 L 20.5 13 L 25 19 L 23 19 L 23 36 Z" fill="#FF5738" />
+                  <!-- Bar 3 (tall) -->
+                  <path d="M 30 36 L 30 13 L 28 13 L 32.5 7 L 37 13 L 35 13 L 35 36 Z" fill="#FF5738" />
+                  <!-- Dollar coin on top left -->
+                  <circle cx="17" cy="11" r="8" fill="#FFB838" />
+                  <circle cx="17" cy="11" r="6.8" fill="#FFA520" />
+                  <text x="17" y="14.5" text-anchor="middle" font-size="10" font-weight="900" fill="#FF5738"
+                    font-family="'Plus Jakarta Sans', sans-serif">$</text>
+                </svg>
+              </div>
+              <div class="hero-float-data">
+                <span class="hero-float-amount">$7454.21</span>
+                <span class="hero-float-label">Revenue</span>
+              </div>
+            </div>
+
+            <!-- How it works button -->
+            <a href="#" class="hero-how-btn" id="hero-how-btn" aria-label="How it works video">
+              <span>How it works</span>
+              <span class="hero-play" aria-hidden="true">
+                <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5L8.5 6L1.5 10.5V1.5Z" fill="#FF5738" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 1 — Commercial Real Estate And Office
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-commercial" aria-labelledby="commercial-title">
+      <div class="container">
+        <!-- Header -->
+        <div class="section-header">
+          <h2 class="section-title" id="commercial-title">Commercial Real Estate<br>And Office</h2>
+          <p class="section-subtitle">Work with Renting brokers who help you to get started with smart tools to.</p>
+        </div>
+
+        <!-- 3-Card Grid -->
+        <div class="cards-grid-3">
+          <!-- Card 1: Buyer Guides -->
+          <div class="guide-card">
+            <div class="card-icon-wrap">
+              <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+              </svg>
+              <span class="card-badge" aria-hidden="true">$</span>
+            </div>
+            <h3>Buyer Guides</h3>
+            <p>Nurture valuable leads into customers, and turn one time.</p>
+          </div>
+
+          <!-- Card 2: Renter Guides (featured) -->
+          <div class="guide-card guide-card--featured">
+            <div class="card-icon-wrap">
+              <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+              </svg>
+              <span class="card-badge" aria-hidden="true">$</span>
+            </div>
+            <h3>Renter Guides</h3>
+            <p>Build brand awareness on the top social media networks.</p>
+          </div>
+
+          <!-- Card 3: Seller Guides -->
+          <div class="guide-card">
+            <div class="card-icon-wrap">
+              <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+              </svg>
+              <span class="card-badge" aria-hidden="true">$</span>
+            </div>
+            <h3>Seller Guides</h3>
+            <p>Get professionally-written content that attracts qualified.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 2 — Dream Living Spaces Setting New Build
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-dream" aria-labelledby="dream-title">
+      <div class="container">
+        <div class="two-col-grid">
+          <!-- Left: Visual Mockup -->
+          <div class="col-6 dream-visual">
+            <div class="dream-visual-inner">
+              <div class="dream-silhouette" role="img" aria-label="Architectural silhouette mockup"></div>
+              <!-- 5-Star Rating Badge -->
+              <div class="dream-rating-badge">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                </svg>
+                <span>5 Star Rating</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="col-6 dream-content">
+            <h2 id="dream-title">Dream Living Spaces Setting New Build</h2>
+            <p>SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
+
+            <!-- Feature List -->
+            <div class="feature-list">
+              <!-- Feature 1 -->
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M47.7556 24.4942L26.5056 3.24423C26.2402 2.98038 25.8811 2.83228 25.5069 2.83228C25.1326 2.83228 24.7736 2.98038 24.5081 3.24423L3.25813 24.4942C3.02604 24.7652 2.90477 25.1138 2.91854 25.4704C2.93231 25.8269 3.08011 26.1651 3.33241 26.4174C3.58471 26.6697 3.92293 26.8175 4.27947 26.8313C4.63601 26.8451 4.98462 26.7238 5.25563 26.4917L25.4998 6.24756L45.744 26.5059C46.015 26.738 46.3636 26.8593 46.7201 26.8455C47.0767 26.8317 47.4149 26.6839 47.6672 26.4316C47.9195 26.1793 48.0673 25.8411 48.0811 25.4846C48.0948 25.128 47.9735 24.7794 47.7415 24.5084L47.7556 24.4942Z" fill="#FF5A3C"/>
+<path d="M39.6667 45.3332H32.5833V31.1666H18.4167V45.3332H11.3333V25.4999L8.5 28.3332V45.3332C8.5 46.0847 8.79851 46.8054 9.32986 47.3367C9.86122 47.8681 10.5819 48.1666 11.3333 48.1666H21.25V33.9999H29.75V48.1666H39.6667C40.4181 48.1666 41.1388 47.8681 41.6701 47.3367C42.2015 46.8054 42.5 46.0847 42.5 45.3332V27.9932L39.6667 25.1599V45.3332Z" fill="#FF5A3C"/>
+</svg>
+
+                </div>
+                <div class="feature-text">
+                  <h4>The perfect Residence</h4>
+                  <p>Take a deep dive and browse origin neighborhood photos.</p>
+                </div>
+              </div>
+
+              <!-- Feature 2 -->
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="50" height="49" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.3193 33.1702C40.092 30.8631 37.4079 29.0255 34.4312 27.7696C31.4545 26.5137 28.2477 25.866 25.0068 25.866C21.766 25.866 18.5592 26.5137 15.5825 27.7696C12.6058 29.0255 9.92169 30.8631 7.69434 33.1702C7.21144 33.6757 6.94324 34.3425 6.94434 35.0349V42.1944C6.94434 42.9164 7.237 43.6088 7.75793 44.1193C8.27887 44.6298 8.9854 44.9166 9.72212 44.9166H40.2777C41.0144 44.9166 41.7209 44.6298 42.2419 44.1193C42.7628 43.6088 43.0554 42.9164 43.0554 42.1944V35.0349C43.0603 34.3444 42.7972 33.6778 42.3193 33.1702ZM40.2777 42.1944H9.72212V35.0213C11.6905 32.9901 14.06 31.3726 16.6865 30.2674C19.313 29.1621 22.1415 28.5921 24.9999 28.5921C27.8583 28.5921 30.6868 29.1621 33.3133 30.2674C35.9398 31.3726 38.3093 32.9901 40.2777 35.0213V42.1944Z" fill="#FF5A3C"/>
+<path d="M24.9999 23.1388C27.2555 23.1375 29.4404 22.3676 31.1804 20.961H30.8749C29.7482 20.9426 28.6594 20.5597 27.7777 19.8721C26.6422 20.3512 25.3969 20.5245 24.1703 20.3743C22.9437 20.224 21.7802 19.7556 20.8 19.0174C19.8199 18.2792 19.0585 17.298 18.5947 16.1751C18.1308 15.0521 17.9812 13.8282 18.1613 12.6297C18.3414 11.4312 18.8447 10.3015 19.6192 9.3573C20.3937 8.41311 21.4113 7.68864 22.5671 7.2587C23.7228 6.82876 24.9746 6.70894 26.1934 6.9116C27.4121 7.11427 28.5536 7.63208 29.4999 8.41157L30.8888 6.01601C29.6598 5.10379 28.2272 4.49105 26.709 4.22837C25.1908 3.96569 23.6306 4.06059 22.1573 4.50524C20.6839 4.94989 19.3395 5.73154 18.2351 6.78569C17.1307 7.83984 16.298 9.13626 15.8056 10.568C15.3132 11.9997 15.1753 13.5256 15.4033 15.0198C15.6312 16.514 16.2185 17.9337 17.1166 19.1617C18.0147 20.3896 19.198 21.3907 20.5687 22.0822C21.9394 22.7737 23.4582 23.1359 24.9999 23.1388Z" fill="#FF5A3C"/>
+<path d="M37.2916 1.5516L29.3471 14.9722C29.1623 15.238 29.0562 15.5488 29.0406 15.8702C29.025 16.1915 29.1004 16.5108 29.2586 16.7927C29.4168 17.0746 29.6516 17.308 29.9369 17.4672C30.2222 17.6263 30.5468 17.705 30.8749 17.6944H46.7777C47.1058 17.705 47.4305 17.6263 47.7158 17.4672C48.001 17.308 48.2358 17.0746 48.394 16.7927C48.5522 16.5108 48.6277 16.1915 48.612 15.8702C48.5964 15.5488 48.4903 15.238 48.3055 14.9722L40.361 1.5516C40.2044 1.28898 39.9803 1.07115 39.711 0.919761C39.4417 0.768376 39.1367 0.688721 38.8263 0.688721C38.5159 0.688721 38.2109 0.768376 37.9416 0.919761C37.6724 1.07115 37.4483 1.28898 37.2916 1.5516Z" fill="#FF5A3C"/>
+</svg>
+
+                </div>
+                <div class="feature-text">
+                  <h4>Global Architect Experts</h4>
+                  <p>Take a deep dive and browse origin neighborhood photos.</p>
+                </div>
+              </div>
+
+              <!-- Feature 3 -->
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="44" height="46" viewBox="0 0 44 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.25 0C32.9885 0 42.5043 9.70233 42.5043 21.671C42.5043 22.5182 42.4554 23.3545 42.3619 24.1778C41.4746 23.2504 40.4455 22.4762 39.3146 21.8855V21.6688C39.3146 20.176 39.1425 18.7222 38.8131 17.3355H31.6774C31.7836 18.4578 31.8474 19.6105 31.8686 20.7827C30.7445 20.995 29.6778 21.3677 28.6896 21.8833V21.671C28.6896 20.1738 28.6131 18.7243 28.4686 17.3355H14.0314C13.6576 20.9437 13.7541 24.5865 14.3182 28.1688H23.1094C22.7107 29.2107 22.4589 30.3049 22.3614 31.4188H15.0025C16.388 36.6492 18.7978 40.0898 21.25 40.0898C22.2148 40.0898 23.1753 39.5547 24.0678 38.5862C24.8349 39.9208 25.8358 41.2338 27.0406 42.5252C25.1983 43.056 23.256 43.3398 21.2479 43.3398C9.5115 43.3398 3.55917e-07 33.6375 3.55917e-07 21.671C-0.00212464 9.70233 9.5115 0 21.25 0ZM11.7045 31.421H5.92025C7.97228 34.7675 11.0209 37.3566 14.62 38.8093C13.5107 37.0327 12.5949 34.8097 11.9213 32.2768L11.7045 31.421ZM10.8247 17.3355H3.689L3.67838 17.3723C3.34938 18.7806 3.18391 20.2234 3.18538 21.671C3.18538 23.959 3.59338 26.1495 4.34138 28.171H11.084C10.7735 26.0182 10.62 23.8448 10.625 21.6688C10.625 20.1868 10.693 18.7352 10.8269 17.3333L10.8247 17.3355ZM14.62 4.5305L14.5711 4.54783C10.2221 6.31848 6.71387 9.73636 4.78125 14.0855H11.2582C11.9255 10.2895 13.0857 6.98317 14.6221 4.5305H14.62ZM21.25 3.25L21.0014 3.26083C18.3175 3.51217 15.7186 7.84983 14.5138 14.0855H27.9905C26.7878 7.86717 24.2016 3.536 21.5199 3.263L21.25 3.25217V3.25ZM27.88 4.52833L28.1052 4.9075C29.529 7.31683 30.6064 10.4802 31.2396 14.0877H37.7166C35.8718 9.93652 32.5883 6.62638 28.4963 4.79267L27.88 4.5305V4.52833Z" fill="#FF5A3C"/>
+<path d="M43.5625 32.5022C43.5625 29.9163 42.555 27.4364 40.7617 25.6079C38.9684 23.7794 36.5361 22.7522 34 22.7522C31.4639 22.7522 29.0316 23.7794 27.2383 25.6079C25.445 27.4364 24.4375 29.9163 24.4375 32.5022C24.4375 36.5387 27.455 40.768 33.3625 45.2855C33.5464 45.4262 33.7701 45.5022 34 45.5022C34.2299 45.5022 34.4536 45.4262 34.6375 45.2855C40.545 40.768 43.5625 36.5387 43.5625 32.5022ZM30.8125 32.5022C30.8125 31.6402 31.1483 30.8136 31.7461 30.2041C32.3439 29.5946 33.1546 29.2522 34 29.2522C34.8454 29.2522 35.6561 29.5946 36.2539 30.2041C36.8517 30.8136 37.1875 31.6402 37.1875 32.5022C37.1875 33.3642 36.8517 34.1908 36.2539 34.8003C35.6561 35.4098 34.8454 35.7522 34 35.7522C33.1546 35.7522 32.3439 35.4098 31.7461 34.8003C31.1483 34.1908 30.8125 33.3642 30.8125 32.5022Z" fill="#FF5A3C"/>
+</svg>
+
+                </div>
+                <div class="feature-text">
+                  <h4>Built-in storage capable</h4>
+                  <p>Take a deep dive and browse origin neighborhood photos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 3 — Today Sells Properties
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-sells" aria-labelledby="sells-title">
+      <div class="container">
+        <div class="sells-grid">
+          <!-- Left Column -->
+          <div class="sells-left">
+            <div>
+              <div class="about-badge">
+                <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.04869 0.20764C8.54703 -0.0692138 9.15298 -0.0692132 9.65131 0.207641L16.8513 4.20764C17.3751 4.49865 17.7 5.05077 17.7 5.65V13.5909C17.7 14.1901 17.3751 14.7422 16.8513 15.0332L9.65131 19.0332C9.15298 19.3101 8.54703 19.3101 8.04869 19.0332L0.848688 15.0332C0.32487 14.7422 0 14.1901 0 13.5909V5.65C0 5.05077 0.324872 4.49865 0.848689 4.20764L8.04869 0.20764ZM8.92285 1.51888C8.87754 1.49371 8.82246 1.49371 8.77715 1.51888L1.57715 5.51888C1.52953 5.54533 1.5 5.59553 1.5 5.65V13.5909C1.5 13.6454 1.52953 13.6955 1.57715 13.722L8.77715 17.722C8.82246 17.7472 8.87754 17.7472 8.92285 17.722L16.1228 13.722C16.1705 13.6955 16.2 13.6453 16.2 13.5909V5.65C16.2 5.59553 16.1705 5.54533 16.1228 5.51888L8.92285 1.51888Z" fill="#FF5A3C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.1 9.62044C4.1 6.99708 6.22665 4.87044 8.85 4.87044C11.4734 4.87044 13.6 6.99708 13.6 9.62044C13.6 12.2438 11.4734 14.3704 8.85 14.3704C6.22665 14.3704 4.1 12.2438 4.1 9.62044ZM8.85 6.37044C7.05507 6.37044 5.6 7.82551 5.6 9.62044C5.6 11.4154 7.05507 12.8704 8.85 12.8704C10.6449 12.8704 12.1 11.4154 12.1 9.62044C12.1 7.82551 10.6449 6.37044 8.85 6.37044Z" fill="#FF5A3C"/>
+</svg>
+
+                <span>About home</span>
+              </div>
+              <h2 id="sells-title">Today Sells Properties</h2>
+              <p>SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
+
+              <!-- Checklist -->
+              <ul class="checklist">
+                <li><span class="check-bullet" aria-hidden="true"></span><span>Live Music concert at New York</span>
+                </li>
+                <li><span class="check-bullet" aria-hidden="true"></span><span>Our best boat Tour is just for you</span>
+                </li>
+                <li><span class="check-bullet" aria-hidden="true"></span><span>Live Music concert at New York</span>
+                </li>
+                <li><span class="check-bullet" aria-hidden="true"></span><span>Our best boat Tour is just for you</span>
+                </li>
+                <li><span class="check-bullet" aria-hidden="true"></span><span>Live Music concert at New York</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- House Tabs + Pagination -->
+            <div class="house-tabs-row">
+              <div class="house-tabs" aria-hidden="true">
+                <div class="house-tab-1">HOUSE 1</div>
+                <div class="house-tab-2">HOUSE 2</div>
+                <div class="house-tab-3">HOUSE 3</div>
+              </div>
+              <div class="pagination-dots" aria-label="Page 1 of 3">
+                <span class="pagination-line" aria-hidden="true"></span>
+                <span class="pagination-track" aria-hidden="true"></span>
+                <span class="active">1</span>
+                <span class="inactive">2</span>
+                <span class="inactive">3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Image Grid -->
+          <div class="sells-right" aria-hidden="true">
+            <div class="img-block-tall" role="img" aria-label="Property image"></div>
+            <div class="img-blocks-stack">
+              <div class="img-block-half" role="img" aria-label="Property image"></div>
+              <div class="img-block-half" role="img" aria-label="Property image"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 4 — Services provide for you
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-services" aria-labelledby="services-title">
+      <div class="container-sm">
+        <!-- Header -->
+        <div class="section-header" style="margin-bottom:5rem;">
+          <h2 class="section-title" id="services-title">Services provide for you</h2>
+          <p class="section-subtitle">There are many variations of passages of Lorem Ipsum available,<br>but the
+            majority have suffered alteration.</p>
+        </div>
+
+        <!-- 3×2 Service Cards -->
+        <div class="services-grid">
+          <!-- Card 1: Bed Rooms -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="49" height="35" viewBox="0 0 49 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.05148 12.1234H10.1029C9.79172 12.1234 9.49868 11.9799 9.30679 11.7354C9.1148 11.491 9.04812 11.1717 9.12295 10.8686L9.75138 8.35709C10.0888 7.00533 11.2991 6.0617 12.6913 6.0617H19.1955C20.8665 6.0617 22.2263 7.42151 22.2263 9.09255V11.1131C22.2263 11.6708 21.7737 12.1234 21.216 12.1234H27.2777C26.7201 12.1234 26.2674 11.6708 26.2674 11.1131V9.09255C26.2674 7.42151 27.6272 6.0617 29.2983 6.0617H35.8025C37.1947 6.0617 38.4049 7.00533 38.7424 8.35709L39.3708 10.8686C39.4476 11.1697 39.3789 11.491 39.187 11.7354C38.995 11.9799 38.702 12.1234 38.3909 12.1234H43.4423C44 12.1234 44.4526 11.6708 44.4526 11.1131V5.05138C44.4526 2.26708 42.1855 0 39.4012 0H9.09264C6.30833 0 4.04126 2.26708 4.04126 5.05138V11.1131C4.04126 11.6708 4.4938 12.1234 5.05148 12.1234Z" fill="#FF5A3C"/>
+<path d="M43.4422 14.1442H5.05138C2.26708 14.1442 0 16.4113 0 19.1956V33.3395C0 33.8972 0.452638 34.3498 1.01031 34.3498C1.56799 34.3498 2.02063 33.8972 2.02063 33.3395V30.3087H46.473V33.3395C46.473 33.8972 46.9257 34.3498 47.4834 34.3498C48.041 34.3498 48.4937 33.8972 48.4937 33.3395V19.1956C48.4936 16.4113 46.2265 14.1442 43.4422 14.1442ZM46.473 28.2881H2.02053V26.2676H46.473L46.473 28.2881Z" fill="#FF5A3C"/>
+</svg>
+
+            </div>
+            <h3>Bed Rooms</h3>
+            <p>Desktop publishing software like aldus page maker including</p>
+            <a href="#" class="learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+
+          <!-- Card 2: Swimming Pool -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="51" height="40" viewBox="0 0 51 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.7631 12.9263C13.2804 12.3402 13.2604 11.4461 12.7 10.8857C12.1174 10.303 11.1725 10.303 10.5897 10.8857L9.85734 11.6181V5.62068C9.85734 4.16706 11.04 2.98443 12.4936 2.98443C13.9472 2.98443 15.1298 4.16706 15.1298 5.62068C15.1298 6.44478 15.798 7.11289 16.6221 7.11289C17.4462 7.11289 18.1143 6.44478 18.1143 5.62068C18.1143 2.52145 15.5928 0 12.4936 0C9.39436 0 6.87291 2.52145 6.87291 5.62068V11.6181L6.14053 10.8857C5.55787 10.303 4.613 10.303 4.03024 10.8857C3.46987 11.4461 3.44997 12.3401 3.96717 12.9263H12.7631Z" fill="#FF5A3C"/>
+<path d="M49.4431 15.9111H1.49222C0.668114 15.9111 0 16.5792 0 17.4033C0 18.2274 0.668114 18.8955 1.49222 18.8955H2.05359C2.82655 21.8216 3.60091 24.7474 4.37697 27.6728C5.31855 31.2219 7.77962 33.9494 10.973 35.2557L9.59355 36.9562C9.07436 37.5963 9.17245 38.536 9.81241 39.0552C10.0889 39.2794 10.4212 39.3885 10.7515 39.3885C11.1857 39.3885 11.6164 39.1998 11.9113 38.8363L14.1744 36.0464C14.5574 36.0841 14.9452 36.1057 15.3385 36.1057H35.6007C35.9977 36.1057 36.3893 36.0837 36.7758 36.0453L39.0399 38.8364C39.3349 39.1999 39.7654 39.3886 40.1997 39.3886C40.53 39.3886 40.8624 39.2795 41.1388 39.0553C41.7788 38.5361 41.8768 37.5964 41.3576 36.9563L39.9753 35.2522C43.1653 33.9441 45.6231 31.2171 46.5632 27.6695C47.4015 24.5051 48.1677 21.6225 48.8952 18.8956H49.4429C50.267 18.8956 50.9351 18.2275 50.9351 17.4034C50.9351 16.5793 50.2672 15.9111 49.4431 15.9111Z" fill="#FF5A3C"/>
+</svg>
+
+            </div>
+            <h3>Swimming Pool</h3>
+            <p>React creative agency amet, consec tetur adipiscing elit.</p>
+            <a href="#" class="learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+
+          <!-- Card 3: Copywriting content -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75277 0.301781L8.72737 7.27638L5.84521 10.1585C5.44423 10.5595 5.44423 11.2096 5.84521 11.6106C6.24612 12.0115 6.89626 12.0116 7.29724 11.6106L10.1795 8.72834L13.1083 11.6571L10.2261 14.5393C9.82511 14.9403 9.82511 15.5903 10.2261 15.9913C10.627 16.3922 11.2771 16.3923 11.6781 15.9913L14.5604 13.1091L17.4891 16.0379L14.607 18.92C14.206 19.321 14.206 19.9711 14.607 20.3721C15.0079 20.773 15.658 20.773 16.059 20.3721L18.9412 17.4898L21.87 20.4186L18.9879 23.3008C18.5869 23.7018 18.5869 24.3518 18.9879 24.7528C19.3888 25.1537 20.0389 25.1538 20.4399 24.7528L23.3221 21.8706L26.2509 24.7994L23.3687 27.6815C22.9678 28.0825 22.9678 28.7326 23.3687 29.1336C23.7696 29.5345 24.4198 29.5345 24.8208 29.1336L27.703 26.2513L34.6773 33.2263C35.3223 33.8713 34.8647 34.9791 33.9513 34.9791H1.02679C0.459747 34.9791 3.8147e-05 34.5194 3.8147e-05 33.9524V1.02783C-3.05176e-05 0.115733 1.10688 -0.344047 1.75277 0.301781ZM6.63964 27.3127C6.63964 27.8798 7.09935 28.3395 7.66639 28.3395H16.9756C17.8872 28.3395 18.3479 27.233 17.7016 26.5867L8.39238 17.2774C7.74737 16.6324 6.63964 17.0901 6.63964 18.0035V27.3127Z" fill="#FF5A3C"/>
+</svg>
+
+            </div>
+            <h3>Copywriting Content</h3>
+            <p>The standard chunk of used since the 1500s is reproduced</p>
+            <a href="#" class="learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+
+          <!-- Card 4: Smart Home -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="44" height="47" viewBox="0 0 44 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.9098 39.9106H15.3559H13.5622C8.84394 39.9106 5.00408 39.63 5.00408 34.9679V23.2109H2.28727C1.36039 23.2109 0.527832 22.6549 0.173464 21.8068C-0.179949 20.9538 0.0172058 19.9757 0.668779 19.3239L18.731 1.33488C19.594 0.474377 20.7438 0 21.9641 0C23.1853 0 24.3351 0.474377 25.1981 1.33488C28.1875 4.31211 30.4294 6.54503 31.9241 8.03365C32.0326 8.14167 32.3328 8.44071 32.3973 8.50485C32.4402 8.54763 32.4617 8.25276 32.4617 7.62027C32.5731 6.04821 33.8715 4.80726 35.4795 4.80726H35.4976C37.1761 4.80726 38.5344 6.16015 38.5344 7.83088V14.1125C38.5344 14.2795 38.5116 14.4246 38.4859 14.5726L43.2603 19.3239C43.9147 19.9757 44.1091 20.9538 43.7547 21.8068C43.4013 22.6549 42.5677 23.2109 41.6418 23.2109H38.5344V24.714C41.7865 26.8788 43.9295 30.5779 43.9295 34.7775C43.9295 41.4494 38.5208 46.8581 31.8489 46.8581C27.0123 46.8581 22.8396 44.0159 20.9098 39.9106ZM31.8489 45.7599C37.9142 45.7599 42.8312 40.8429 42.8312 34.7775C42.8312 28.7121 37.9142 23.7951 31.8489 23.7951C25.7835 23.7951 20.8665 28.7121 20.8665 34.7775C20.8665 40.8429 25.7835 45.7599 31.8489 45.7599ZM36.3908 36.7929C36.3908 37.601 36.1011 38.2995 35.5218 38.8886C34.9425 39.4776 34.1028 39.8549 33.0026 40.0204V40.7652C33.0026 41.2492 32.6103 41.6415 32.1264 41.6415C31.6424 41.6415 31.25 41.2492 31.25 40.7652V40.0788C30.5198 40.0301 29.8286 39.906 29.1763 39.7064C28.7704 39.5822 28.4079 39.4401 28.0887 39.2801C27.7813 39.126 27.6493 38.7574 27.7892 38.4433C27.7939 38.4328 27.7983 38.4228 27.8026 38.4132L28.2775 37.3465C28.3897 37.0947 28.6847 36.9814 28.9366 37.0935C28.9479 37.0985 28.9589 37.104 28.9698 37.1098C28.9951 37.1234 29.0188 37.1358 29.0409 37.1469C29.3636 37.3102 29.7155 37.4502 30.0964 37.5669C30.7 37.7519 31.2939 37.8444 31.8781 37.8444C32.988 37.8444 33.5429 37.5669 33.5429 37.0119C33.5429 36.7198 33.3847 36.5032 33.0683 36.362C32.7519 36.2209 32.2431 36.0724 31.5421 35.9166C30.773 35.7511 30.1304 35.5734 29.6144 35.3836C29.0984 35.1937 28.6554 34.8895 28.2854 34.4708C27.9154 34.0521 27.7305 33.4874 27.7305 32.7767C27.7305 31.9394 28.0323 31.2214 28.6359 30.6226C29.2396 30.0238 30.1109 29.6563 31.25 29.52V28.7898C31.25 28.3058 31.6424 27.9135 32.1264 27.9135C32.6103 27.9135 33.0026 28.3058 33.0026 28.7898V29.4908C33.5575 29.5395 34.0906 29.6368 34.6018 29.7829C34.962 29.8858 35.2945 30.0105 35.5991 30.1569C35.6245 30.1692 35.6534 30.1835 35.6855 30.2001C35.8461 30.2828 35.9165 30.4749 35.8472 30.6418L35.1842 32.2392C35.1294 32.3715 34.9778 32.4342 34.8456 32.3793C34.8398 32.3769 34.834 32.3742 34.8283 32.3714C34.7798 32.347 34.7384 32.3266 34.7042 32.3104C33.8616 31.9105 33.0413 31.7106 32.2432 31.7106C31.6687 31.7106 31.2501 31.7958 30.9872 31.9662C30.7243 32.1366 30.5929 32.3581 30.5929 32.6307C30.5929 32.9033 30.7487 33.1077 31.0602 33.244C31.3718 33.3803 31.8732 33.5215 32.5645 33.6676C33.3434 33.8331 33.9884 34.0108 34.4995 34.2006C35.0107 34.3905 35.4537 34.6923 35.8285 35.1061C36.2034 35.5199 36.3908 36.0821 36.3908 36.7929Z" fill="#FF5A3C"/>
+</svg>
+            </div>
+            <h3>Smart Home</h3>
+            <p>The standard chunk of used since the 1500s is reproduced</p>
+            <a href="#" class="learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+
+          <!-- Card 5: Library Area -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.2555 0H21.1345V7.08789H15.2555V0Z" fill="#FF5A3C"/>
+<path d="M15.2555 9.81566H21.1345V13.4518H15.2555V9.81566Z" fill="#FF5A3C"/>
+<path d="M1.07786 38C0.482573 38 0 37.5174 0 36.9221V9.81566H12.5265V14.8158C12.5265 15.5692 13.1372 16.1799 13.8906 16.1799H22.4977C23.251 16.1799 23.8617 15.5692 23.8617 14.8158V9.81566H36.5452V36.9221C36.5452 37.5174 36.0626 38 35.4674 38H1.07786Z" fill="#FF5A3C"/>
+<path d="M23.8605 7.08789H36.5439V1.892C36.5439 0.847033 35.84 0 34.9717 0H23.8605V7.08789Z" fill="#FF5A3C"/>
+<path d="M1.30659 0H12.5266V7.08789H0V1.57238C0 0.703981 0.58501 0 1.30659 0Z" fill="#FF5A3C"/>
+</svg>
+
+            </div>
+            <h3>Library Area</h3>
+            <p>Desktop publishing software like aldus page maker including</p>
+            <a href="#" class="learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+
+          <!-- Card 6: Responsive Duty -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="56" height="47" viewBox="0 0 56 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.917 21.1826C8.91705 21.1826 4.57764e-05 30.0996 4.57764e-05 41.0989C4.57764e-05 42.8447 0.225544 44.5369 0.647423 46.15H38.5921C39.5158 46.3436 40.4726 46.4459 41.4538 46.4459C49.1269 46.4459 55.3467 40.2261 55.3467 32.553C55.3467 24.88 49.1269 18.6602 41.4538 18.6602C36.9371 18.6602 32.9242 20.8163 30.3868 24.1547C27.3443 22.2708 23.758 21.1826 19.917 21.1826ZM36.0229 35.0728L39.1142 34.6021C39.2442 35.196 39.5097 35.6477 39.9126 35.9538C40.3121 36.2632 40.8762 36.417 41.596 36.417C42.391 36.417 42.9883 36.2707 43.3919 35.9802C43.6607 35.7743 43.7948 35.4987 43.7948 35.1547C43.7948 34.9238 43.7203 34.7295 43.5747 34.5764C43.4217 34.4308 43.0784 34.2927 42.5481 34.1694C40.0656 33.6209 38.4946 33.1205 37.8296 32.6688C36.908 32.0384 36.4488 31.1648 36.4488 30.0488C36.4488 29.0371 36.8484 28.1893 37.6434 27.5027C38.2203 27.0043 39.0275 26.6867 40.0649 26.5499V24.9667H42.8441V26.5661C43.6993 26.6846 44.3799 26.9135 44.885 27.2528C45.6577 27.7749 46.1913 28.5442 46.4825 29.5633L43.593 30.101C43.4698 29.6452 43.2314 29.2945 42.884 29.052C42.5366 28.8089 42.0402 28.6898 41.3949 28.6898C40.5809 28.6898 39.9986 28.8015 39.6437 29.0297C39.4088 29.1902 39.293 29.3988 39.293 29.6527C39.293 29.8728 39.3939 30.0597 39.599 30.2127C39.8794 30.4179 40.8383 30.7057 42.4811 31.0788C44.1232 31.4519 45.2697 31.9077 45.9191 32.4487C46.5644 32.9939 46.8854 33.7591 46.8854 34.7369C46.8854 35.8007 46.4412 36.719 45.5494 37.4842C44.8864 38.055 43.9851 38.4139 42.8441 38.5595V40.1394H40.0649V38.5175C39.1812 38.3726 38.4377 38.0909 37.8337 37.6745C36.9113 37.0359 36.3073 36.1705 36.0229 35.0728ZM41.4538 22.2092C35.7405 22.2092 31.11 26.8404 31.11 32.553C31.11 38.2663 35.7405 42.8975 41.4538 42.8975C47.1671 42.8975 51.7976 38.2663 51.7976 32.553C51.7976 26.8404 47.1671 22.2092 41.4538 22.2092ZM19.917 0C14.9764 0 10.9716 4.0048 10.9716 8.94544C10.9716 13.8861 14.9764 17.8909 19.917 17.8909C24.857 17.8909 28.8625 13.8861 28.8625 8.94544C28.8625 4.0048 24.857 0 19.917 0Z" fill="#FF5A3C"/>
+</svg>
+
+            </div>
+            <h3>Responsive Duty</h3>
+            <p>React creative agency amet, consec tetur adipiscing elit.</p>
+            <a href="#" class="learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 5 — Featured Property
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-featured" aria-labelledby="featured-title">
+      <div class="container">
+        <!-- Header + Filter Tabs -->
+        <div class="featured-header">
+          <div>
+            <h2 id="featured-title">Featured Property</h2>
+            <p>Find your suitable house here and stay safe and relax with pleasure</p>
+          </div>
+          <div class="filter-tabs" role="tablist" aria-label="Property type filter">
+            <div class="filter-tab active" role="tab" aria-selected="true">Appartment</div>
+            <div class="filter-tab" role="tab" aria-selected="false">Vila</div>
+            <div class="filter-tab" role="tab" aria-selected="false">Land</div>
+          </div>
+        </div>
+
+        <!-- Property Cards -->
+        <div class="property-grid">
+          <!-- Card 1 -->
+          <div class="property-card" role="article" aria-label="The Stokes Appartment">
+            <div class="property-info">
+              <h3>The Stokes Appartment</h3>
+              <div class="property-location">
+                <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Cleveland, United States</span>
+              </div>
+              <div class="property-price-row">
+                <span class="property-price">$2,32,120</span>
+                <button class="property-arrow-btn" aria-label="View The Stokes Appartment">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 12h16m-6-6l6 6-6 6" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="property-card" role="article" aria-label="The Stokes Appartment">
+            <div class="property-info">
+              <h3>The Stokes Appartment</h3>
+              <div class="property-location">
+                <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Cleveland, United States</span>
+              </div>
+              <div class="property-price-row">
+                <span class="property-price property-price--dark">$2,32,120</span>
+                <button class="property-arrow-btn property-arrow-btn--light" aria-label="View The Stokes Appartment">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 12h16m-6-6l6 6-6 6" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="property-card" role="article" aria-label="The Stokes Appartment">
+            <div class="property-info">
+              <h3>The Stokes Appartment</h3>
+              <div class="property-location">
+                <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Cleveland, United States</span>
+              </div>
+              <div class="property-price-row">
+                <span class="property-price property-price--dark">$2,32,120</span>
+                <button class="property-arrow-btn property-arrow-btn--light" aria-label="View The Stokes Appartment">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 12h16m-6-6l6 6-6 6" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Explore CTA -->
+        <div class="center-cta">
+          <a href="#" class="btn-outline">Explore Property</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 6 — Floating Property Card + Unit Badge
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-transition" aria-label="Featured unit">
+      <div class="section-transition-inner">
+        <!-- Floating Card -->
+        <div class="floating-card" role="article" aria-label="Property at 242 Metric way">
+          <div class="floating-card-img">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=300&q=80"
+              alt="House with lawn">
+            <div class="floating-card-dollar" aria-hidden="true">$</div>
+          </div>
+          <div class="floating-card-details">
+            <div class="floating-price">$4,000</div>
+            <div class="floating-address">242 Metric way</div>
+            <div class="floating-amenities">
+              <div class="amenity-item">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="30" height="30" rx="15" fill="#FF5A3C" fill-opacity="0.2"/>
+<path d="M8.66669 13.333H10.3333C10.2307 13.333 10.134 13.2857 10.0707 13.205C10.0073 13.1244 9.98534 13.019 10.01 12.919L10.2174 12.0904C10.3287 11.6444 10.728 11.333 11.1874 11.333H13.3334C13.8847 11.333 14.3334 11.7817 14.3334 12.333V12.9997C14.3334 13.1837 14.184 13.333 14 13.333H16C15.816 13.333 15.6667 13.1837 15.6667 12.9997V12.333C15.6667 11.7817 16.1153 11.333 16.6667 11.333H18.8127C19.272 11.333 19.6713 11.6444 19.7827 12.0904L19.99 12.919C20.0154 13.0184 19.9927 13.1244 19.9294 13.205C19.866 13.2857 19.7694 13.333 19.6667 13.333H21.3334C21.5174 13.333 21.6667 13.1837 21.6667 12.9997V10.9997C21.6667 10.081 20.9187 9.33301 20.0001 9.33301H10C9.08137 9.33301 8.33337 10.081 8.33337 10.9997V12.9997C8.33337 13.1837 8.48269 13.333 8.66669 13.333Z" fill="#FF5A3C"/>
+<path d="M21.3333 13.9998H8.66666C7.748 13.9998 7 14.7478 7 15.6664V20.3331C7 20.5171 7.14934 20.6664 7.33334 20.6664C7.51734 20.6664 7.66669 20.5171 7.66669 20.3331V19.3331H22.3333V20.3331C22.3333 20.5171 22.4827 20.6664 22.6667 20.6664C22.8507 20.6664 23 20.5171 23 20.3331V15.6664C23 14.7478 22.252 13.9998 21.3333 13.9998ZM22.3333 18.6664H7.66666V17.9998H22.3333L22.3333 18.6664Z" fill="#FF5A3C"/>
+</svg>
+
+
+                </span>
+                <span>2</span>
+              </div>
+              <div class="amenity-item">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="30" height="30" rx="15" fill="#FF5A3C" fill-opacity="0.2"/>
+<path d="M11.0092 12.8739C11.1717 12.6898 11.1654 12.409 10.9894 12.2329C10.8064 12.0499 10.5095 12.0499 10.3265 12.2329L10.0964 12.463V10.5791C10.0964 10.1225 10.4679 9.75096 10.9245 9.75096C11.3812 9.75096 11.7526 10.1225 11.7526 10.5791C11.7526 10.8379 11.9625 11.0478 12.2214 11.0478C12.4803 11.0478 12.6901 10.8379 12.6901 10.5791C12.6901 9.60552 11.8981 8.81348 10.9245 8.81348C9.95099 8.81348 9.15895 9.60552 9.15895 10.5791V12.463L8.92889 12.2329C8.74586 12.0499 8.44906 12.0499 8.266 12.2329C8.08997 12.409 8.08372 12.6898 8.24618 12.8739H11.0092Z" fill="#FF5A3C"/>
+<path d="M22.5313 13.8115H7.46874C7.20987 13.8115 7 14.0214 7 14.2803C7 14.5391 7.20987 14.749 7.46874 14.749H7.64508C7.88789 15.6682 8.13113 16.5872 8.37491 17.5062C8.67069 18.621 9.44376 19.4778 10.4469 19.8881L10.0136 20.4223C9.85048 20.6234 9.88129 20.9186 10.0823 21.0816C10.1692 21.1521 10.2736 21.1864 10.3773 21.1864C10.5137 21.1864 10.649 21.1271 10.7416 21.0129L11.4525 20.1365C11.5728 20.1484 11.6947 20.1551 11.8182 20.1551H18.183C18.3077 20.1551 18.4307 20.1482 18.5522 20.1362L19.2634 21.0129C19.356 21.1271 19.4913 21.1864 19.6277 21.1864C19.7314 21.1864 19.8359 21.1521 19.9227 21.0817C20.1237 20.9186 20.1545 20.6234 19.9914 20.4223L19.5572 19.887C20.5593 19.4762 21.3313 18.6195 21.6266 17.5051C21.89 16.5111 22.1306 15.6056 22.3592 14.749H22.5312C22.7901 14.749 22.9999 14.5392 22.9999 14.2803C22.9999 14.0214 22.7901 13.8115 22.5313 13.8115Z" fill="#FF5A3C"/>
+</svg>
+
+
+                <span>2</span>
+              </div>
+              <div class="amenity-item">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="30" height="30" rx="15" fill="#FF5A3C" fill-opacity="0.2"/>
+<path d="M7.8023 7.13804L10.9926 10.3283L9.67424 11.6467C9.49083 11.8301 9.49083 12.1274 9.67424 12.3109C9.85763 12.4942 10.155 12.4943 10.3384 12.3109L11.6568 10.9925L12.9965 12.3321L11.6781 13.6505C11.4947 13.8339 11.4947 14.1313 11.6781 14.3147C11.8615 14.4981 12.1589 14.4981 12.3423 14.3147L13.6607 12.9963L15.0004 14.336L13.682 15.6543C13.4986 15.8377 13.4986 16.1351 13.682 16.3185C13.8654 16.5019 14.1628 16.5019 14.3462 16.3185L15.6646 15.0001L17.0042 16.3398L15.6859 17.6581C15.5025 17.8415 15.5025 18.1389 15.6859 18.3223C15.8693 18.5057 16.1667 18.5057 16.3501 18.3223L17.6685 17.0039L19.0081 18.3436L17.6898 19.662C17.5064 19.8454 17.5064 20.1427 17.6898 20.3261C17.8732 20.5095 18.1705 20.5096 18.354 20.3261L19.6723 19.0078L22.8625 22.1982C23.1575 22.4932 22.9482 23 22.5304 23H7.47023C7.21085 23 7.00057 22.7897 7.00057 22.5303V7.47015C7.00054 7.05294 7.50686 6.84263 7.8023 7.13804ZM10.0376 19.4933C10.0376 19.7526 10.2479 19.9629 10.5073 19.9629H14.7655C15.1825 19.9629 15.3932 19.4568 15.0975 19.1611L10.8394 14.903C10.5443 14.6079 10.0376 14.8173 10.0376 15.2351V19.4933Z" fill="#FF5A3C"/>
+</svg>
+
+                <span>500sqf</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit Badge -->
+        <div class="unit-badge" aria-label="Unit Number 9A">
+          <span class="unit-badge-label">UNIT NO.</span>
+          <span class="unit-badge-number">9A</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 7 — Testimonials
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-testimonials" aria-labelledby="testimonials-title">
+      <div class="inner">
+        <div class="section-header">
+          <h2 class="section-title" id="testimonials-title">What our customers are saying</h2>
+          <p>We make sure you have a fine distance with the sickness. We make sure you never lose hope.</p>
+        </div>
+
+        <div class="testimonial-slider">
+          <!-- Prev Button -->
+          <button class="testimonial-nav-btn" aria-label="Previous testimonial">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+
+          <!-- Content -->
+          <div class="testimonial-content">
+            <!-- Visual Card -->
+            <div class="testimonial-visual">
+              <div class="testimonial-card-wrap" aria-hidden="true">
+                <div class="testimonial-bg-layer"></div>
+                <div class="testimonial-top-card"></div>
+              </div>
+            </div>
+
+            <!-- Quote Text -->
+            <div class="testimonial-text">
+              <svg width="40" height="27" viewBox="0 0 40 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5">
+<path d="M23.8318 23.625C25.3894 25.875 27.8505 27 31.2149 27C33.8318 27 35.9501 26.3007 37.5701 24.902C39.19 23.4426 40 21.527 40 19.1554C40 16.6622 39.2523 14.7466 37.757 13.4088C36.2617 12.0101 34.2679 11.3108 31.7757 11.3108C28.8473 11.3108 26.5732 12.2534 24.9533 14.1385C24.8287 13.7128 24.7664 13.0439 24.7664 12.1318C24.7664 10.9763 24.9221 9.97297 25.2336 9.12162C25.7321 7.60135 26.6044 6.1723 27.8505 4.83446C29.1589 3.43581 30.623 2.37162 32.243 1.64189L31.4019 0C28.162 1.45946 25.7009 3.52702 24.0187 6.2027C22.3364 8.87838 21.4953 11.7973 21.4953 14.9595C21.4953 16.7838 21.7134 18.4561 22.1495 19.9763C22.5857 21.4966 23.1464 22.7128 23.8318 23.625Z" fill="#FF5A3C"/>
+<path d="M2.33645 23.625C3.89408 25.875 6.35514 27 9.71963 27C12.3364 27 14.4548 26.3007 16.0748 24.902C17.6947 23.4426 18.5047 21.527 18.5047 19.1554C18.5047 16.6622 17.757 14.7466 16.2617 13.4088C14.7664 12.0101 12.7726 11.3108 10.2804 11.3108C7.35202 11.3108 5.07788 12.2534 3.45794 14.1385C3.33333 13.7128 3.27103 13.0439 3.27103 12.1318C3.27103 10.9763 3.42679 9.97297 3.73832 9.12162C4.23676 7.60135 5.10903 6.1723 6.35514 4.83446C7.66355 3.43581 9.12772 2.37162 10.7477 1.64189L9.90654 0C6.66667 1.45946 4.20561 3.52702 2.52336 6.2027C0.841121 8.87838 0 11.7973 0 14.9595C0 16.7838 0.218069 18.4561 0.654206 19.9763C1.09034 21.4966 1.65109 22.7128 2.33645 23.625Z" fill="#FF5A3C"/>
+</g>
+</svg>
+
+              <blockquote>
+                We make sure you have a fine distance with the sickness. We make sure you never lose hope. We make sure
+                you have with the sickness.
+              </blockquote>
+              <div class="stars" aria-label="5 stars">
+                <span aria-hidden="true">★★★★★</span>
+              </div>
+              <div>
+                <div class="author-name">Yunus Seyhan</div>
+                <div class="author-title">Postgraduate Student</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Next Button -->
+          <button class="testimonial-nav-btn testimonial-nav-btn--active" aria-label="Next testimonial">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 8 — City Projects + Newsletter
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-cities" aria-labelledby="cities-title">
+      <div class="container-sm">
+        <div class="section-header">
+          <h2 class="section-title" id="cities-title">We build more projects<br>successful</h2>
+        </div>
+
+        <!-- City Cards -->
+        <div class="city-grid">
+          <div class="city-card">
+            <h3>San Francisco, California</h3>
+            <a href="#">See more &gt;</a>
+          </div>
+          <div class="city-card">
+            <h3>Washington DC</h3>
+            <a href="#">See more &gt;</a>
+          </div>
+          <div class="city-card">
+            <h3>Chicago</h3>
+            <a href="#">See more &gt;</a>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="newsletter-bar">
+          <div class="newsletter-pill">
+            <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0017.25 4.5h-10.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <input type="email" placeholder="Enter your email here" aria-label="Email address for newsletter">
+            <button class="btn-subscribe" type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 9 — From our blog
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-blog" aria-labelledby="blog-title">
+      <div class="container-sm">
+        <div class="section-header">
+          <h2 class="section-title" id="blog-title">From our blog</h2>
+          <p class="section-subtitle" style="margin-top:0.75rem;font-size:0.875rem;">Find your suitable house here and
+            stay safe and relax with pleasure</p>
+        </div>
+
+        <!-- Blog Cards -->
+        <div class="blog-grid">
+          <!-- Blog Card 1 -->
+          <article class="blog-card">
+            <div class="blog-card-img" aria-hidden="true"></div>
+            <div class="blog-card-body">
+              <h3>How to rent a home very easily?</h3>
+              <div class="blog-category">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <span>Rentals</span>
+              </div>
+              <p class="blog-excerpt">How to rent a home very easily in this pandemic situation. You can rent house
+                through using our platform...</p>
+              <div class="blog-meta">
+                <div class="blog-meta-item">
+                  <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect height="18" rx="2" ry="2" width="18" x="3" y="4" />
+                    <line x1="16" x2="16" y1="2" y2="6" />
+                    <line x1="8" x2="8" y1="2" y2="6" />
+                    <line x1="3" x2="21" y1="10" y2="10" />
+                  </svg>
+                  <span>3 years ago</span>
+                </div>
+                <div class="blog-meta-item blog-meta-author">
+                  <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>By <span class="highlight">Mike Hesson</span></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Blog Card 2 -->
+          <article class="blog-card">
+            <div class="blog-card-img" aria-hidden="true"></div>
+            <div class="blog-card-body">
+              <h3>How to rent a home very easily?</h3>
+              <div class="blog-category">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <span>Rentals</span>
+              </div>
+              <p class="blog-excerpt">How to rent a home very easily in this pandemic situation. You can rent house
+                through using our platform...</p>
+              <div class="blog-meta">
+                <div class="blog-meta-item">
+                  <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect height="18" rx="2" ry="2" width="18" x="3" y="4" />
+                    <line x1="16" x2="16" y1="2" y2="6" />
+                    <line x1="8" x2="8" y1="2" y2="6" />
+                    <line x1="3" x2="21" y1="10" y2="10" />
+                  </svg>
+                  <span>3 years ago</span>
+                </div>
+                <div class="blog-meta-item blog-meta-author">
+                  <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>By <span class="highlight">Mike Hesson</span></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Blog Card 3 -->
+          <article class="blog-card">
+            <div class="blog-card-img" aria-hidden="true"></div>
+            <div class="blog-card-body">
+              <h3>How to rent a home very easily?</h3>
+              <div class="blog-category">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <span>Rentals</span>
+              </div>
+              <p class="blog-excerpt">How to rent a home very easily in this pandemic situation. You can rent house
+                through using our platform...</p>
+              <div class="blog-meta">
+                <div class="blog-meta-item">
+                  <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect height="18" rx="2" ry="2" width="18" x="3" y="4" />
+                    <line x1="16" x2="16" y1="2" y2="6" />
+                    <line x1="8" x2="8" y1="2" y2="6" />
+                    <line x1="3" x2="21" y1="10" y2="10" />
+                  </svg>
+                  <span>3 years ago</span>
+                </div>
+                <div class="blog-meta-item blog-meta-author">
+                  <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>By <span class="highlight">Mike Hesson</span></span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Read All CTA -->
+        <div class="center-cta">
+          <a href="#" class="btn-outline btn-outline-sm">Read All</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────
+       SECTION 10 — Contact Us
+       ───────────────────────────────────────────────────────── -->
+    <section class="section-contact" aria-labelledby="contact-title">
+      <div class="container-sm">
+        <!-- Overline + Heading -->
+        <div class="contact-header">
+          <span class="overline">Contact with us</span>
+          <h2 id="contact-title">Looking For To Buy A Property?</h2>
+        </div>
+
+        <!-- 2-Column Grid -->
+        <div class="contact-grid">
+          <!-- Left: Copy + Decorative Graphic -->
+          <div class="contact-left">
+            <p>Browse our property listing and find your best and suitable home or house for sale, rent and buying. It's
+              so easy and fast.</p>
+            <ul class="contact-checks">
+              <li class="contact-check">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Architect o beatae vitae dicta sunt</span>
+              </li>
+              <li class="contact-check">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Largest global Real Estate market</span>
+              </li>
+              <li class="contact-check">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Nor again is there anyone</span>
+              </li>
+            </ul>
+
+            <!-- Decorative Graphic -->
+            <div class="contact-graphic" aria-hidden="true">
+              <div class="graphic-coral-card">
+                <div class="graphic-dark-badge"></div>
+              </div>
+              <div class="graphic-block-1"></div>
+              <div class="graphic-block-2"></div>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="contact-right">
+            <div class="contact-form-card">
+              <h3>Contact Us</h3>
+              <form class="contact-form" onsubmit="return false;" novalidate>
+                <div class="form-group">
+                  <label for="contact-name">Name</label>
+                  <input id="contact-name" class="form-input" type="text" placeholder="Enter your name"
+                    autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email</label>
+                  <input id="contact-email" class="form-input" type="email" placeholder="Enter your email"
+                    autocomplete="email">
+                </div>
+                <div class="form-group">
+                  <label for="contact-message">Message</label>
+                  <textarea id="contact-message" class="form-textarea" rows="4"
+                    placeholder="Enter your message"></textarea>
+                </div>
+                <div>
+                  <button type="submit" class="btn-send">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════════════════════ -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="footer-top">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <div class="brand-mark">
+            <svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.9209 13.6005L20.0727 0.433506C19.3332 -0.144523 18.2181 -0.14446 17.4788 0.433443L0.630604 13.6006C0.0382148 14.0636 -0.157464 14.7769 0.131947 15.4178C0.421431 16.0588 1.12626 16.4729 1.92767 16.4729H4.61862V29.6652C4.61862 30.1883 5.1131 30.6124 5.72294 30.6124H14.9578C15.5677 30.6124 16.0621 30.1884 16.0621 29.6652V21.6552H21.4897V29.6653C21.4897 30.1884 21.9841 30.6125 22.594 30.6125H31.8284C32.4383 30.6125 32.9327 30.1884 32.9327 29.6653V16.4729H35.6242C36.4255 16.4729 37.1304 16.0587 37.4199 15.4178C37.709 14.7768 37.5133 14.0636 36.9209 13.6005Z" fill="#FF5A3C"/>
+</svg>
+
+            <span class="logo-name">Reanty<span>.</span></span>
+          </div>
+          <p>With over 1 million homes for sale available on the website.</p>
+          <div class="footer-social">
+            <a href="#" class="social-btn" aria-label="LinkedIn"><span>in</span></a>
+            <a href="#" class="social-btn" aria-label="Facebook"><span>f</span></a>
+            <a href="#" class="social-btn" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Company Column -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">How we work?</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Column -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Help/FAQ</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Property owners</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </div>
+
+        <!-- More Column -->
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="#">Land fees</a></li>
+            <li><a href="#">Property</a></li>
+            <li><a href="#">Law tips</a></li>
+            <li><a href="#">Badges</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+
+        <!-- Head Office + Newsletter Column -->
+        <div class="footer-col">
+          <address>
+            <div class="head-office">
+              <h4>Head Office</h4>
+              <p>Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22, Charlottesville, CA 45565</p>
+            </div>
+          </address>
+          <div class="newsletter-col">
+            <h4>Newsletter</h4>
+            <div class="newsletter-underline">
+              <input type="email" placeholder="Enter your email address" aria-label="Newsletter email">
+              <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V14.5C0.5 15.6046 1.39543 16.5 2.5 16.5H21.5C22.6046 16.5 23.5 15.6046 23.5 14.5V2.5C23.5 1.39543 22.6046 0.5 21.5 0.5Z" stroke="#FF5A3C" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.9109 1.08203L11.9999 10L1.08887 1.08203" stroke="#FF5A3C" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="mailto:email@gmail.com">email@gmail.com</a>
+          <a href="tel:1234567890">(123) 456-7890</a>
+        </div>
+        <p class="footer-copy">© 2021 Aeyman Megha All rights reserved.</p>
+      </div>
+    </div>
+
+    <!-- Brand Accent Bar -->
+    <div class="footer-accent-bar" aria-hidden="true"></div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════
+     SCRIPTS — Mobile menu toggle only
+     ═══════════════════════════════════════════════════════════ -->
+  <script>
+    (function () {
+      'use strict';
+      var btn = document.getElementById('mobile-menu-toggle');
+      var nav = document.getElementById('mobile-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var isOpen = nav.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+
+</html>
